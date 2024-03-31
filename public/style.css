@@ -1,0 +1,73 @@
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	user-select: none;
+}
+
+#root {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 500px;
+	border: 1px solid black;
+}
+
+.form {
+	height: 30px;
+	width: 250px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 10px;
+}
+
+.form input,
+.form button {
+	height: 100%;
+}
+
+.form input {
+	font-size: 18px;
+	padding: 2px;
+	margin-right: 5px;
+}
+
+
+ul {
+	list-style: none;
+	padding: 0;
+}
+
+.item {
+	padding: 5px;
+	text-align: center;
+	border: 1px solid black;
+  max-width: 400px;
+}
+
+.item li {
+	margin-bottom: 5px;
+	font-size: 20px;
+  overflow: auto;
+}
+
+button {
+	height: 30px;
+	margin: 0 3px;
+	transition: 0.2s;
+	-webkit-transition: 0.2s;
+	-moz-transition: 0.2s;
+	-ms-transition: 0.2s;
+	-o-transition: 0.2s;
+}
+
+button:hover {
+	transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	-o-transform: scale(1.1);
+}
